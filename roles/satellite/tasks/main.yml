@@ -1,0 +1,4 @@
+- name: Delete a host
+  redhat.satellite.host:
+    name: vm_01.example.com
+    state: absent
